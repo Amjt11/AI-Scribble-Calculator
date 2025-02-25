@@ -1,5 +1,5 @@
 # AI-Scribble-Calculator
-An AI powered calculator that transforms scribbles into solutions 
+An AI-powered calculator that transforms scribbles into solutions 
 
 ## Problem Statement
 Traditional calculators are limited to basic numerical operations, lacking context-aware calculations, natural language processing (NLP) for conversational inputs, and integration with dynamic data sources for real-time, contextual operations.
@@ -16,6 +16,7 @@ Traditional calculators are limited to basic numerical operations, lacking conte
 - Removes the need for keyboards or structured input.  
 - Combines handwriting recognition with real-time calculations for seamless use.
 
+---
 
 ## Workflow
 
@@ -32,7 +33,7 @@ Traditional calculators are limited to basic numerical operations, lacking conte
 - Calls the analyze image function with two parameters: a. The image object b. A dictionary of user-defined variables
 
 
-**Image Analysis (Gemini AI):**
+**Image Analysis (Gemini AI)**
 
 - Uses Google's Gemini 1.5 Flash model
 - Receives a detailed prompt explaining how to interpret different types of mathematical problems:
@@ -48,7 +49,28 @@ Traditional calculators are limited to basic numerical operations, lacking conte
 - Adds an 'assign' flag to each response
 - Returns the processed responses to the frontend
 
+### AI Engine (Gemini API)
+The  **Gemini  API**  is  the  core  component  responsible  for  solving  complex 
+equations  and  performing  sophisticated  mathematical  tasks.  It  can  handle  a 
+wide  range  of  calculations,  from  basic  algebraic  equations  to  advanced 
+differential equations and symbolic calculations.
 
+**Key Features** 
+
+●  **Equation  Solving** :  Gemini  can  solve  algebraic,  trigonometric, and 
+calculus-based equations and systems of equations. 
+●  **Graphical  Rendering** :  It  can  also  generate  graphs  for  mathematical 
+functions, which are returned to the front end for visual representation. 
+●  **LaTeX  Rendering** :  Gemini  supports  the  rendering  of  equations  in  LaTeX 
+format,  ensuring  that  complex  mathematical  expressions  are  displayed 
+properly in the app. 
+
+The  backend  layer  interacts  with  Gemini  through  an  API  request-response 
+cycle,  where  the  user’s  input  equation  is  passed  to  Gemini,  and  the  result  is 
+returned  to  the  user  in  an  easily  interpretable  format  (e.g.,  numerical  answers, 
+LaTeX expressions, graphs). 
+
+---
 
 
 
