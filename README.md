@@ -31,8 +31,6 @@ Traditional calculators are limited to basic numerical operations, lacking conte
 - Converts the decoded data to a **PIL** (Python Imaging Library) Image object
 - Calls the analyze image function with two parameters: a. The image object b. A dictionary of user-defined variables
 
-![image](https://github.com/user-attachments/assets/68e5b91c-126b-4bac-b9d3-456854fb56d5)
-
 
 **Image Analysis (Gemini AI):**
 
@@ -50,7 +48,6 @@ Traditional calculators are limited to basic numerical operations, lacking conte
 - Adds an 'assign' flag to each response
 - Returns the processed responses to the frontend
 
- ![image](https://github.com/user-attachments/assets/2a855d8f-a52c-4d55-b06f-2671260574fa)
 
 
 
