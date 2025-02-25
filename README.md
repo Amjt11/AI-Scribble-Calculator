@@ -2,7 +2,7 @@
 An AI-powered calculator that transforms scribbles into solutions 
 
                                                 
-![](https://github.com/Amjt11/AI-Scribble-Calculator/blob/main/images/ipados_18_calc_1718086821202.jpg) **Inspired by Apple's  Math  Notes**
+**Inspired by Apple's  Math  Notes**![](https://github.com/Amjt11/AI-Scribble-Calculator/blob/main/images/ipados_18_calc_1718086821202.jpg) 
 
 ## Problem Statement
 Traditional calculators are limited to basic numerical operations, lacking context-aware calculations, natural language processing (NLP) for conversational inputs, and integration with dynamic data sources for real-time, contextual operations.
