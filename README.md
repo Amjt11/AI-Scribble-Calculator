@@ -16,5 +16,21 @@ Traditional calculators are limited to basic numerical operations, lacking conte
 - Removes the need for keyboards or structured input.  
 - Combines handwriting recognition with real-time calculations for seamless use.
 
-![Uploading image.png…]()
+
+## Workflow
+
+Frontend Interaction (React Application):
+
+- User draws on a canvas
+- Clicks "Calculate" button
+- The canvas is converted to a base64-encoded image
+- The image and any predefined variables are sent to the backend via an axios POST request
+- Backend Route Handling (Fast API):
+- Receives the POST request with image data
+- Decodes the base64 image string
+- Converts the decoded data to a PIL (Python Imaging Library) Image object
+- Calls the analyze image function with two parameters: a. The image object b. A dictionary of user-defined variables
+![image](https://github.com/user-attachments/assets/1ca2dd6a-5290-46f5-90f1-abb935dd3cda)
+
+
 
