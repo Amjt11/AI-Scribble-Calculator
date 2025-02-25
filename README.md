@@ -1,11 +1,19 @@
 # AI-Scribble-Calculator
 An AI-powered calculator that transforms scribbles into solutions 
 
+![](https://github.com/Amjt11/AI-Scribble-Calculator/blob/main/images/ipados_18_calc_1718086821202.jpg)
+
 ## Problem Statement
 Traditional calculators are limited to basic numerical operations, lacking context-aware calculations, natural language processing (NLP) for conversational inputs, and integration with dynamic data sources for real-time, contextual operations.
 
 ## Solution Approach
-**Our AI Calculator** transforms digital interaction by allowing users to solve mathematical equations written as scribbles or drawings directly on a screen.  
+**Our AI Calculator** transforms digital interaction by allowing users to solve mathematical equations written as **scribbles** or drawings directly on a screen. 
+
+Inspired  by  **Apple's  Math  Notes**  for  iPad,  this  system  combines advanced  AI  capabilities  with  a  user-centric  interface  to  provide  a  versatile platform  accessible  on  Android  and  PC.  The  proposed  system  focuses on overcoming  the  limitations  of  existing  mathematical  tools  by  integrating **handwriting recognition**, **real-time interaction**, and **cross-platform accessibility**.
+
+![](https://github.com/Amjt11/AI-Scribble-Calculator/blob/main/images/9.png)
+
+---
 
 ### Key Features: 
 
@@ -19,6 +27,8 @@ Traditional calculators are limited to basic numerical operations, lacking conte
 ---
 
 ## Workflow
+
+![](https://github.com/Amjt11/AI-Scribble-Calculator/blob/main/images/Workflow.png)
 
 **Frontend Interaction (React Application):**
 
@@ -71,6 +81,77 @@ returned  to  the  user  in  an  easily  interpretable  format  (e.g.,  numerica
 LaTeX expressions, graphs). 
 
 ---
+
+
+## Testing
+
+### Functionality Testing Case 1:  Equation  Solving
+**Test case 1**
+
+- Input
+
+![](https://github.com/Amjt11/AI-Scribble-Calculator/blob/main/images/1.png)
+
+- Output
+
+![](https://github.com/Amjt11/AI-Scribble-Calculator/blob/main/images/2.png)
+
+
+**Test Case 2**
+
+- Input
+
+![](https://github.com/Amjt11/AI-Scribble-Calculator/blob/main/images/3.png)
+
+- Output
+
+![](https://github.com/Amjt11/AI-Scribble-Calculator/blob/main/images/4.png)
+
+
+### Functionality Testing Case 2:  Diagram Problem  Solving
+
+**Test Case 1**
+
+- Input
+
+![](https://github.com/Amjt11/AI-Scribble-Calculator/blob/main/images/5.png)
+
+- Output
+
+![](https://github.com/Amjt11/AI-Scribble-Calculator/blob/main/images/6.png)
+
+**Test Case 2**
+
+- Input
+
+![](https://github.com/Amjt11/AI-Scribble-Calculator/blob/main/images/7.png)
+
+- Output
+
+![](https://github.com/Amjt11/AI-Scribble-Calculator/blob/main/images/8.png)
+
+
+ ### Functionality Testing Case 3: Discovering  concepts  from  abstract  drawings
+ 
+**Test Case 1**
+
+- Input
+
+![](https://github.com/Amjt11/AI-Scribble-Calculator/blob/main/images/10.png)
+
+
+- Output
+
+![](https://github.com/Amjt11/AI-Scribble-Calculator/blob/main/images/11.png)
+
+
+**Test Case 2**
+
+- Input and Output
+
+![](https://github.com/Amjt11/AI-Scribble-Calculator/blob/main/images/12.png)
+
+
 
 
 
