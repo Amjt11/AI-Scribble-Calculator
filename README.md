@@ -151,7 +151,10 @@ LaTeX expressions, graphs).
 
 ![](https://github.com/Amjt11/AI-Scribble-Calculator/blob/main/images/12.png)
 
+---
 
+## Conclusion
+The  AI-Powered  Calculator  App  successfully  meets  the  objectives outlined  for  the  project.  It  delivers  accurate,  real-time  calculations,  graphical visualizations,  and  LaTeX-rendered  expressions,  all  within  an intuitive  user interface.  The  integration  of  ReactJS,  FastAPI,  and  the  Gemini  API  ensures that  the  app  is  both  fast  and  scalable.  The  performance  benchmarks  and  user feedback  confirm  the  system’s  effectiveness in  providing  a  seamless experience for solving complex mathematical problems.
 
 
 
